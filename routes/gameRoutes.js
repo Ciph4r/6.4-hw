@@ -88,4 +88,5 @@ router.delete('/deleteGame/:name' , (req,res)=> {
     return res.status(404).json({comfirmation: 'Failed' , message: 'Game not found',game})
 })
 
+
 module.exports = router
